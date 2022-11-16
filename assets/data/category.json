@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "kategori": "Angka",
+    "img": "assets/Kategori/angka.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)", "audio":"assets/Suara/Angka/yay.mp3"},
+      {"id": 2,"categoryId": 1,"hanzi": "一","pinyin": "Yī","terjemahan": "1 (Satu)"},
+      {"id": 3,"categoryId": 1,"hanzi": "二","pinyin": "Èr","terjemahan": "2 (Dua)"},
+      {"id": 4,"categoryId": 1,"hanzi": "三","pinyin": "Sān","terjemahan": "3 (Tiga)"},
+      {"id": 5,"categoryId": 1,"hanzi": "四","pinyin": "Sì","terjemahan": "4 (Empat)"},
+      {"id": 6,"categoryId": 1,"hanzi": "五","pinyin": "Wǔ","terjemahan": "5 (Lima)"},
+      {"id": 7,"categoryId": 1,"hanzi": "六","pinyin": "Liù","terjemahan": "6 (Enam)"},
+      {"id": 8,"categoryId": 1,"hanzi": "七","pinyin": "Qī","terjemahan": "7 (Tujuh)"},
+      {"id": 9,"categoryId": 1,"hanzi": "八","pinyin": "Bā","terjemahan": "8 (Delapan)"},
+      {"id": 10,"categoryId": 1,"hanzi": "九","pinyin": "Jiǔ","terjemahan": "9 (Sembilan)"},
+      {"id": 11,"categoryId": 1,"hanzi": "十","pinyin": "Shí","terjemahan": "10 (Sepuluh)"}
+    ],
+    "kalimat": [
+      {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"}
+    ],
+    "quiz": [
+      {"question":
+        "Hai"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "kategori": "Buah",
+    "img": "assets/Kategori/fruit.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 2,"hanzi": "苹果","pinyin": "Píngguǒ","terjemahan": "Apel"},
+      {"id": 2,"categoryId": 2,"hanzi": "葡萄","pinyin": "Pútáo","terjemahan": "Anggur"},
+      {"id": 3,"categoryId": 2,"hanzi": "榴莲","pinyin": "Liúlián","terjemahan": "Durian"},
+      {"id": 4,"categoryId": 2,"hanzi": "芒果","pinyin": "Mángguǒ","terjemahan": "Mangga"},
+      {"id": 5,"categoryId": 2,"hanzi": "菠萝","pinyin": "Bōluó","terjemahan": "Nanas"},
+      {"id": 6,"categoryId": 2,"hanzi": "草莓","pinyin": "Cǎoméi","terjemahan": "Strawberry"},
+      {"id": 7,"categoryId": 2,"hanzi": "西瓜","pinyin": "Xīguā","terjemahan": "Semangka"},
+      {"id": 8,"categoryId": 2,"hanzi": "橙","pinyin": "Chéng","terjemahan": "Jeruk"},
+      {"id": 9,"categoryId": 2,"hanzi": "香蕉","pinyin": "Xiāngjiāo","terjemahan": "Pisang"},
+      {"id": 10,"categoryId": 2,"hanzi": "猕猴桃","pinyin": "Míhóutáo","terjemahan": "Kiwi"}
+    ],
+    "kalimat": [
+      {"id": 1,"categoryId": 2,"hanzi": "我 喜欢 吃 苹果","pinyin": "Wǒ xǐhuān chī píngguǒ","terjemahan": "Saya suka makan buah apel"},
+      {"id": 2,"categoryId": 2,"hanzi": "西瓜 很 好吃","pinyin": "Xīguā hěn hào chī","terjemahan": "Buah semangka sangat enak"},
+      {"id": 3,"categoryId": 2,"hanzi": "A : 你 喜欢 吃 什么? B : 我 喜欢 吃 橙子","pinyin": "A : Nǐ xǐhuān chī shénme? B : Wǒ xǐhuān chī chéngzi","terjemahan": "A : kamu suka makan apa ? B : Saya suka makan buah jeruk"}
+    ]
+  },
+  {
+    "id": 3,
+    "kategori": "Makanan",
+    "img": "assets/Kategori/food.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"},
+      {"id": 2,"categoryId": 1,"hanzi": "一","pinyin": "Yī","terjemahan": "1 (Satu)"},
+      {"id": 3,"categoryId": 1,"hanzi": "二","pinyin": "Èr","terjemahan": "2 (Dua)"},
+      {"id": 4,"categoryId": 1,"hanzi": "三","pinyin": "Sān","terjemahan": "3 (Tiga)"}
+    ],
+    "kalimat": [
+      {"id": 1,"categoryId": 1,"hanzi": "你 喜欢 吃 什么？","pinyin": "Líng","terjemahan": "0 (Nol)"}
+    ]
+  },
+  {
+    "id": 4,
+    "kategori": "Keluarga",
+    "img": "assets/Kategori/family.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"},
+      {"id": 2,"categoryId": 1,"hanzi": "一","pinyin": "Yī","terjemahan": "1 (Satu)"},
+      {"id": 3,"categoryId": 1,"hanzi": "二","pinyin": "Èr","terjemahan": "2 (Dua)"},
+      {"id": 4,"categoryId": 1,"hanzi": "三","pinyin": "Sān","terjemahan": "3 (Tiga)"},
+      {"id": 5,"categoryId": 1,"hanzi": "四","pinyin": "Sì","terjemahan": "4 (Empat)"},
+      {"id": 6,"categoryId": 1,"hanzi": "五","pinyin": "Wǔ","terjemahan": "5 (Lima)"},
+      {"id": 7,"categoryId": 1,"hanzi": "六","pinyin": "Liù","terjemahan": "6 (Enam)"},
+      {"id": 8,"categoryId": 1,"hanzi": "七","pinyin": "Qī","terjemahan": "7 (Tujuh)"},
+      {"id": 9,"categoryId": 1,"hanzi": "八","pinyin": "Bā","terjemahan": "8 (Delapan)"},
+      {"id": 10,"categoryId": 1,"hanzi": "九","pinyin": "Jiǔ","terjemahan": "9 (Sembilan)"},
+      {"id": 11,"categoryId": 1,"hanzi": "十","pinyin": "Shí","terjemahan": "10 (Sepuluh)"}
+    ],
+    "kalimat": [
+      {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"}
+    ]
+  }
+]

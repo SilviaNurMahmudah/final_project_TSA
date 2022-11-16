@@ -1,0 +1,13 @@
+[
+  {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"},
+  {"id": 2,"categoryId": 1,"hanzi": "一","pinyin": "Yī","terjemahan": "1 (Satu)"},
+  {"id": 3,"categoryId": 1,"hanzi": "二","pinyin": "Èr","terjemahan": "2 (Dua)"},
+  {"id": 4,"categoryId": 1,"hanzi": "三","pinyin": "Sān","terjemahan": "3 (Tiga)"},
+  {"id": 5,"categoryId": 1,"hanzi": "四","pinyin": "Sì","terjemahan": "4 (Empat)"},
+  {"id": 6,"categoryId": 1,"hanzi": "五","pinyin": "Wǔ","terjemahan": "5 (Lima)"},
+  {"id": 7,"categoryId": 1,"hanzi": "六","pinyin": "Liù","terjemahan": "6 (Enam)"},
+  {"id": 8,"categoryId": 1,"hanzi": "七","pinyin": "Qī","terjemahan": "7 (Tujuh)"},
+  {"id": 9,"categoryId": 1,"hanzi": "八","pinyin": "Bā","terjemahan": "8 (Delapan)"},
+  {"id": 10,"categoryId": 1,"hanzi": "九","pinyin": "Jiǔ","terjemahan": "9 (Sembilan)"},
+  {"id": 11,"categoryId": 1,"hanzi": "十","pinyin": "Shí","terjemahan": "10 (Sepuluh)"}
+]
