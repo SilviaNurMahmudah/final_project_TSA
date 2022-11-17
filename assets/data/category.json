@@ -1,8 +1,32 @@
 [
   {
     "id": 1,
+    "kategori": "Umum",
+    "img": "https://cdn-icons-png.flaticon.com/512/3625/3625145.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 1,"hanzi": "是的","pinyin": "Shì de","terjemahan": "Iya", "audio":"assets/Suara/Umum/iya.mp3"},
+      {"id": 2,"categoryId": 1,"hanzi": "不是","pinyin": "Bùshì","terjemahan": "Tidak", "audio":"assets/Suara/Umum/tidak.mp3"},
+      {"id": 3,"categoryId": 1,"hanzi": "谢谢","pinyin": "Xièxiè","terjemahan": "Terima Kasih", "audio":"assets/Suara/Umum/terima-kasih.mp3"},
+      {"id": 4,"categoryId": 1,"hanzi": "别客气","pinyin": "Bié kèqì","terjemahan": "Sama-sama", "audio":"assets/Suara/Umum/sama-sama.mp3"},
+      {"id": 5,"categoryId": 1,"hanzi": "对不起","pinyin": "Duìbùqǐ","terjemahan": "Maaf", "audio":"assets/Suara/Umum/maaf.mp3"},
+      {"id": 6,"categoryId": 1,"hanzi": "不知道","pinyin": "Bù zhīdào","terjemahan": "Tidak Tahu"},
+      {"id": 7,"categoryId": 1,"hanzi": "没问题","pinyin": "Méi wèntí","terjemahan": "Tidak Masalah"},
+      {"id": 8,"categoryId": 1,"hanzi": "什么 ?","pinyin": "Shénme ?","terjemahan": "Apa ?"},
+      {"id": 9,"categoryId": 1,"hanzi": "在哪里 ?","pinyin": "Zài nǎlǐ ?","terjemahan": "Dimana ?"},
+      {"id": 10,"categoryId": 1,"hanzi": "为什么 ?","pinyin": "Wèishéme ?","terjemahan": "Kenapa ?"},
+      {"id": 11,"categoryId": 1,"hanzi": "是谁 ?","pinyin": "Shì shéi","terjemahan": "Siapa ?"},
+      {"id": 12,"categoryId": 1,"hanzi": "多少件 ?","pinyin": "Duōshǎo jiàn","terjemahan": "Berapa Banyak ?"},
+      {"id": 13,"categoryId": 1,"hanzi": "哪一个","pinyin": "Nǎ yīgè","terjemahan": "yang mana ?"}
+    ],
+    "kalimat": [
+      {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"}
+    ]
+  },
+
+  {
+    "id": 2,
     "kategori": "Angka",
-    "img": "assets/Kategori/angka.png",
+    "img": "https://cdn-icons-png.flaticon.com/512/4002/4002506.png",
     "kosaKata": [
       {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)", "audio":"assets/Suara/Angka/yay.mp3"},
       {"id": 2,"categoryId": 1,"hanzi": "一","pinyin": "Yī","terjemahan": "1 (Satu)"},
@@ -18,68 +42,166 @@
     ],
     "kalimat": [
       {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"}
-    ],
-    "quiz": [
-      {"question":
-        "Hai"
-      }
     ]
   },
-  {
-    "id": 2,
-    "kategori": "Buah",
-    "img": "assets/Kategori/fruit.png",
-    "kosaKata": [
-      {"id": 1,"categoryId": 2,"hanzi": "苹果","pinyin": "Píngguǒ","terjemahan": "Apel"},
-      {"id": 2,"categoryId": 2,"hanzi": "葡萄","pinyin": "Pútáo","terjemahan": "Anggur"},
-      {"id": 3,"categoryId": 2,"hanzi": "榴莲","pinyin": "Liúlián","terjemahan": "Durian"},
-      {"id": 4,"categoryId": 2,"hanzi": "芒果","pinyin": "Mángguǒ","terjemahan": "Mangga"},
-      {"id": 5,"categoryId": 2,"hanzi": "菠萝","pinyin": "Bōluó","terjemahan": "Nanas"},
-      {"id": 6,"categoryId": 2,"hanzi": "草莓","pinyin": "Cǎoméi","terjemahan": "Strawberry"},
-      {"id": 7,"categoryId": 2,"hanzi": "西瓜","pinyin": "Xīguā","terjemahan": "Semangka"},
-      {"id": 8,"categoryId": 2,"hanzi": "橙","pinyin": "Chéng","terjemahan": "Jeruk"},
-      {"id": 9,"categoryId": 2,"hanzi": "香蕉","pinyin": "Xiāngjiāo","terjemahan": "Pisang"},
-      {"id": 10,"categoryId": 2,"hanzi": "猕猴桃","pinyin": "Míhóutáo","terjemahan": "Kiwi"}
-    ],
-    "kalimat": [
-      {"id": 1,"categoryId": 2,"hanzi": "我 喜欢 吃 苹果","pinyin": "Wǒ xǐhuān chī píngguǒ","terjemahan": "Saya suka makan buah apel"},
-      {"id": 2,"categoryId": 2,"hanzi": "西瓜 很 好吃","pinyin": "Xīguā hěn hào chī","terjemahan": "Buah semangka sangat enak"},
-      {"id": 3,"categoryId": 2,"hanzi": "A : 你 喜欢 吃 什么? B : 我 喜欢 吃 橙子","pinyin": "A : Nǐ xǐhuān chī shénme? B : Wǒ xǐhuān chī chéngzi","terjemahan": "A : kamu suka makan apa ? B : Saya suka makan buah jeruk"}
-    ]
-  },
+
   {
     "id": 3,
-    "kategori": "Makanan",
-    "img": "assets/Kategori/food.png",
+    "kategori": "Keluarga",
+    "img": "https://cdn-icons-png.flaticon.com/512/3097/3097951.png",
     "kosaKata": [
-      {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"},
-      {"id": 2,"categoryId": 1,"hanzi": "一","pinyin": "Yī","terjemahan": "1 (Satu)"},
-      {"id": 3,"categoryId": 1,"hanzi": "二","pinyin": "Èr","terjemahan": "2 (Dua)"},
-      {"id": 4,"categoryId": 1,"hanzi": "三","pinyin": "Sān","terjemahan": "3 (Tiga)"}
+      {"id": 1,"categoryId": 2,"hanzi": "妈妈","pinyin": "Mā mā","terjemahan": "Mama / Ibu"},
+      {"id": 2,"categoryId": 2,"hanzi": "爸爸","pinyin": "Bà ba","terjemahan": "Papa / Ayah"},
+      {"id": 3,"categoryId": 2,"hanzi": "姐姐","pinyin": "Jiě jiě","terjemahan": "Kakak Perempuan"},
+      {"id": 4,"categoryId": 2,"hanzi": "哥哥","pinyin": "Gē gē","terjemahan": "Kakak Laki-laki"},
+      {"id": 5,"categoryId": 2,"hanzi": "妹妹","pinyin": "Mèi mei","terjemahan": "Adik Perempuan"},
+      {"id": 6,"categoryId": 2,"hanzi": "弟弟","pinyin": "Dì dì","terjemahan": "Adik Laki-laki"},
+      {"id": 7,"categoryId": 2,"hanzi": "奶奶","pinyin": "Nǎi nai","terjemahan": "Nenek (dari Ayah)"},
+      {"id": 8,"categoryId": 2,"hanzi": "外婆","pinyin": "Wà ipó","terjemahan": "Nenek (dari Ibu)"},
+      {"id": 9,"categoryId": 2,"hanzi": "爷爷","pinyin": "Yé yé","terjemahan": "Kakek (dari Ayah)"},
+      {"id": 10,"categoryId": 2,"hanzi": "外公","pinyin": "Wài gōng","terjemahan": "Kakek (dari Ibu)"}
     ],
     "kalimat": [
-      {"id": 1,"categoryId": 1,"hanzi": "你 喜欢 吃 什么？","pinyin": "Líng","terjemahan": "0 (Nol)"}
+      {"id": 1,"categoryId": 2,"hanzi": "我 妈妈 很 美丽","pinyin": "Wǒ māmā hěn měilì","terjemahan": "Ibu saya sangat cantik"},
+      {"id": 1,"categoryId": 2,"hanzi": "我 爸爸 很 帅","pinyin": "Wǒ bàba hěn shuài","terjemahan": "Papa saya sangat ganteng"}
     ]
   },
+
   {
     "id": 4,
-    "kategori": "Keluarga",
-    "img": "assets/Kategori/family.png",
+    "kategori": "Salam",
+    "img": "https://cdn-icons-png.flaticon.com/512/8131/8131374.png",
     "kosaKata": [
-      {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"},
-      {"id": 2,"categoryId": 1,"hanzi": "一","pinyin": "Yī","terjemahan": "1 (Satu)"},
-      {"id": 3,"categoryId": 1,"hanzi": "二","pinyin": "Èr","terjemahan": "2 (Dua)"},
-      {"id": 4,"categoryId": 1,"hanzi": "三","pinyin": "Sān","terjemahan": "3 (Tiga)"},
-      {"id": 5,"categoryId": 1,"hanzi": "四","pinyin": "Sì","terjemahan": "4 (Empat)"},
-      {"id": 6,"categoryId": 1,"hanzi": "五","pinyin": "Wǔ","terjemahan": "5 (Lima)"},
-      {"id": 7,"categoryId": 1,"hanzi": "六","pinyin": "Liù","terjemahan": "6 (Enam)"},
-      {"id": 8,"categoryId": 1,"hanzi": "七","pinyin": "Qī","terjemahan": "7 (Tujuh)"},
-      {"id": 9,"categoryId": 1,"hanzi": "八","pinyin": "Bā","terjemahan": "8 (Delapan)"},
-      {"id": 10,"categoryId": 1,"hanzi": "九","pinyin": "Jiǔ","terjemahan": "9 (Sembilan)"},
-      {"id": 11,"categoryId": 1,"hanzi": "十","pinyin": "Shí","terjemahan": "10 (Sepuluh)"}
+      {"id": 1,"categoryId": 5,"hanzi": "你好","pinyin": "Nǐ hǎo","terjemahan": "Hallo"},
+      {"id": 2,"categoryId": 5,"hanzi": "再见","pinyin": "Zài jiàn","terjemahan": "Sampai Jumpa"},
+      {"id": 3,"categoryId": 5,"hanzi": "早上好","pinyin": "Zǎoshang hǎo","terjemahan": "Selamat Pagi"},
+      {"id": 4,"categoryId": 5,"hanzi": "下午好","pinyin": "Xiàwǔ hǎo","terjemahan": "Selamat Siang"},
+      {"id": 5,"categoryId": 5,"hanzi": "晚上好","pinyin": "Wǎnshang hǎo","terjemahan": "Selamat Malam"},
+      {"id": 6,"categoryId": 5,"hanzi": "生日快乐","pinyin": "Shēngrì kuàilè","terjemahan": "Selamat Ulang Tahun"},
+      {"id": 7,"categoryId": 5,"hanzi": "新年快乐","pinyin": "Xīnnián kuàilè","terjemahan": "Selamat Tahun Baru"},
+      {"id": 8,"categoryId": 5,"hanzi": "圣诞节快乐","pinyin": "Shèngdàn jié kuàilè","terjemahan": "Selamat Hari Natal"}
     ],
     "kalimat": [
-      {"id": 1,"categoryId": 1,"hanzi": "零","pinyin": "Líng","terjemahan": "0 (Nol)"}
+      {"id": 1,"categoryId": 5,"hanzi": "我很好","pinyin": "Wǒ hěn hǎo","terjemahan": "Saya baik-baik saja", "audio":"assets/Suara/Salam/saya-baik-baik-saja.mp3"},
+      {"id": 2,"categoryId": 5,"hanzi": "很高兴认识你","pinyin": "Hěn gāoxìng rènshí nǐ","terjemahan": "Saya bertemu dengan mu", "audio":"assets/Suara/Salam/senang-bertemu-denganmu.mp3"},
+      {"id": 3,"categoryId": 5,"hanzi": "我也很高兴认识你","pinyin": "Wǒ yě hěn gāoxìng rènshí nǐ","terjemahan": "Senang bertemu denganmu juga", "audio":"assets/Suara/Salam/senang-juga.mp3"},
+      {"id": 4,"categoryId": 5,"hanzi": "你叫什么名字","pinyin": "Nǐ jiào shénme míngzì","terjemahan": "Siapa namamu ?", "audio":"assets/Suara/Salam/namamu-siapa.mp3"},
+      {"id": 5,"categoryId": 5,"hanzi": "我的名字是","pinyin": "Wǒ de míngzì shì","terjemahan": "Nama saya ..."}
+    ]
+  },
+
+  {
+    "id": 5,
+    "kategori": "Buah",
+    "img": "https://cdn-icons-png.flaticon.com/128/3194/3194591.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 5,"hanzi": "苹果","pinyin": "Píng guǒ","terjemahan": "Apel"},
+      {"id": 2,"categoryId": 5,"hanzi": "葡萄","pinyin": "Pú táo","terjemahan": "Anggur"},
+      {"id": 3,"categoryId": 5,"hanzi": "榴莲","pinyin": "Liú lián","terjemahan": "Durian"},
+      {"id": 4,"categoryId": 5,"hanzi": "芒果","pinyin": "Máng guǒ","terjemahan": "Mangga"},
+      {"id": 5,"categoryId": 5,"hanzi": "菠萝","pinyin": "Bō luó","terjemahan": "Nanas"},
+      {"id": 6,"categoryId": 5,"hanzi": "草莓","pinyin": "Cǎo méi","terjemahan": "Strawberry"},
+      {"id": 7,"categoryId": 5,"hanzi": "西瓜","pinyin": "Xī guā","terjemahan": "Semangka"},
+      {"id": 8,"categoryId": 5,"hanzi": "橙","pinyin": "Chéng","terjemahan": "Jeruk"},
+      {"id": 9,"categoryId": 5,"hanzi": "香蕉","pinyin": "Xiāng jiāo","terjemahan": "Pisang"},
+      {"id": 10,"categoryId": 5,"hanzi": "猕猴桃","pinyin": "Mí hóu táo","terjemahan": "Kiwi"}
+    ],
+    "kalimat": [
+      {"id": 1,"categoryId": 5,"hanzi": "我 喜欢 吃 苹果","pinyin": "Wǒ xǐhuān chī píngguǒ","terjemahan": "Saya suka makan buah apel"},
+      {"id": 2,"categoryId": 5,"hanzi": "西瓜 很 好吃","pinyin": "Xīguā hěn hào chī","terjemahan": "Buah semangka sangat enak"},
+      {"id": 3,"categoryId": 5,"hanzi": "A : 你 喜欢 吃 什么? B : 我 喜欢 吃 橙子","pinyin": "A : Nǐ xǐhuān chī shénme? B : Wǒ xǐhuān chī chéngzi","terjemahan": "A : kamu suka makan apa ? B : Saya suka makan buah jeruk"}
+    ]
+  },
+
+  {
+    "id": 6,
+    "kategori": "Makanan",
+    "img": "https://cdn-icons-png.flaticon.com/512/561/561611.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 6,"hanzi": "炒面","pinyin": "Chǎomiàn","terjemahan": "Mie Goreng"},
+      {"id": 2,"categoryId": 6,"hanzi": "炒饭","pinyin": "Chǎofàn","terjemahan": "Nasi Goreng"},
+      {"id": 3,"categoryId": 6,"hanzi": "巴克索","pinyin": "Bākèsuǒ","terjemahan": "Bakso"}
+    ],
+    "kalimat": [
+      {"id": 1,"categoryId": 6,"hanzi": "你 喜欢 吃 什么？","pinyin": "Nǐ xǐhuān chī shénme?","terjemahan": "Kamu suka makan apa ?"},
+      {"id": 2,"categoryId": 6,"hanzi": "我 喜欢 吃 炒饭","pinyin": "Wǒ xǐhuān chī chǎofàn","terjemahan": "Saya suka makan nasi goreng"}
+    ]
+  },
+
+  {
+    "id": 7,
+    "kategori": "Minuman",
+    "img": "https://cdn-icons-png.flaticon.com/512/3194/3194517.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 7,"hanzi": "水","pinyin": "Shuǐ","terjemahan": "Air Putih"},
+      {"id": 2,"categoryId": 7,"hanzi": "咖啡","pinyin": "Kā fēi","terjemahan": "Kopi"},
+      {"id": 3,"categoryId": 7,"hanzi": "茶","pinyin": "Chá","terjemahan": "Teh"},
+      {"id": 4,"categoryId": 7,"hanzi": "牛奶","pinyin": "Niú nǎi","terjemahan": "Susu"},
+      {"id": 5,"categoryId": 7,"hanzi": "可口可乐","pinyin": "Kě kǒu kě lè","terjemahan": "Coca-cola"},
+      {"id": 6,"categoryId": 7,"hanzi": "果汁","pinyin": "Guǒ zhī","terjemahan": "Jus"}
+    ],
+    "kalimat": [
+      {"id": 1,"categoryId": 6,"hanzi": "你 喜欢 喝 什么？","pinyin": "Nǐ xǐhuān hē shénme?","terjemahan": "Kamu suka minum apa ?"},
+      {"id": 2,"categoryId": 6,"hanzi": "我 喜欢 喝 牛奶","pinyin": "Wǒ xǐhuān hē Niú nǎi","terjemahan": "Saya suka makan susu"},
+      {"id": 2,"categoryId": 6,"hanzi": "可口可乐 很 好 喝","pinyin": "Kě kǒu kě lè hěn hǎo hē","terjemahan": "Coca-cola sangat enak"}
+    ]
+  },
+
+  {
+    "id": 8,
+    "kategori": "Hewan",
+    "img": "https://cdn-icons-png.flaticon.com/128/3397/3397536.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 8,"hanzi": "小猫","pinyin": "Xiǎo māo","terjemahan": "Kucing"}, 
+      {"id": 2,"categoryId": 8,"hanzi": "小狗","pinyin": "Xiǎo gǒu","terjemahan": "Anjing"},
+      {"id": 3,"categoryId": 8,"hanzi": "马","pinyin": "Mǎ","terjemahan": "Kuda"},
+      {"id": 4,"categoryId": 8,"hanzi": "羊","pinyin": "Yáng","terjemahan": "Kambing"},
+      {"id": 5,"categoryId": 8,"hanzi": "猴子","pinyin": "Hóuzi","terjemahan": "Monyet"},
+      {"id": 6,"categoryId": 8,"hanzi": "牛","pinyin": "Niú","terjemahan": "Sapi"},
+      {"id": 7,"categoryId": 8,"hanzi": "老虎","pinyin": "Lǎohǔ","terjemahan": "Harimau"},
+      {"id": 8,"categoryId": 8,"hanzi": "大象","pinyin": "Dà xiàng","terjemahan": "Gajah"},
+      {"id": 9,"categoryId": 8,"hanzi": "兔子","pinyin": "Tùzǐ","terjemahan": "Kelinci"},
+      {"id": 10,"categoryId": 8,"hanzi": "熊猫","pinyin": "Xióngmāo","terjemahan": "Panda"},
+      {"id": 11,"categoryId": 8,"hanzi": "长颈鹿","pinyin": "Chángjǐnglù","terjemahan": "Jerapah"},
+      {"id": 12,"categoryId": 8,"hanzi": "蛇","pinyin": "Shé","terjemahan": "Ular"}
+    ],
+    "kalimat": [
+
+    ]
+  },
+
+  {
+    "id": 9,
+    "kategori": "Hobi",
+    "img": "https://cdn-icons-png.flaticon.com/128/5361/5361551.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 5,"hanzi": "游泳","pinyin": "Yóuyǒng","terjemahan": "Berenang"},
+      {"id": 2,"categoryId": 5,"hanzi": "听音乐","pinyin": "Tīng yīnyuè","terjemahan": "Mendengarkan Musik"},
+      {"id": 3,"categoryId": 5,"hanzi": "钓鱼","pinyin": "Diàoyú","terjemahan": "Memancing"},
+      {"id": 4,"categoryId": 5,"hanzi": "做饭","pinyin": "Zuò fàn","terjemahan": "Memasak "},
+      {"id": 5,"categoryId": 5,"hanzi": "画画","pinyin": "Huà Huà","terjemahan": "Melukis"}
+    ],
+    "kalimat": [
+      
+    ]
+  },
+
+  {
+    "id": 10,
+    "kategori": "Warna",
+    "img": "https://cdn-icons-png.flaticon.com/128/2071/2071514.png",
+    "kosaKata": [
+      {"id": 1,"categoryId": 5,"hanzi": "红色的","pinyin": "Hóngsè de","terjemahan": "Merah"},
+      {"id": 2,"categoryId": 5,"hanzi": "黄色","pinyin": "Huángsè","terjemahan": "Kuning"},
+      {"id": 3,"categoryId": 5,"hanzi": "绿色","pinyin": "Lǜsè","terjemahan": "Hijau"},
+      {"id": 4,"categoryId": 5,"hanzi": "蓝色的","pinyin": "Lán sè de","terjemahan": "Biru"},
+      {"id": 5,"categoryId": 5,"hanzi": "紫色的","pinyin": "Zǐsè de","terjemahan": "Ungu"},
+      {"id": 6,"categoryId": 5,"hanzi": "白色的","pinyin": "Báisè de","terjemahan": "Putih"},
+      {"id": 7,"categoryId": 5,"hanzi": "黑色的","pinyin": "Hēisè de","terjemahan": "Hitam"}
+    ],
+    "kalimat": [
+      
     ]
   }
+
 ]

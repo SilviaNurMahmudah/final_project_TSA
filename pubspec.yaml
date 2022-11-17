@@ -18,6 +18,9 @@ dependencies:
   font_awesome_flutter: ^10.2.1
   url_launcher: ^6.1.6
   translator: ^0.1.7
+  sqflite: ^2.2.0+3
+  path_provider: ^2.0.11
+  path: ^1.8.2
 
 dev_dependencies:
   flutter_test:
@@ -37,16 +40,21 @@ flutter:
     - assets/info.png
     - assets/translate.png
 
-    - assets/Kategori/angka.png
-    - assets/Kategori/fruit.png
-    - assets/Kategori/food.png
-    - assets/Kategori/family.png
-
     - assets/data/kosa_kata.json
     - assets/data/category.json
 
     - assets/Suara/Angka/yay.mp3
 
+    - assets/Suara/Umum/iya.mp3
+    - assets/Suara/Umum/tidak.mp3
+    - assets/Suara/Umum/maaf.mp3
+    - assets/Suara/Umum/sama-sama.mp3
+    - assets/Suara/Umum/terima-kasih.mp3
+
+    - assets/Suara/Salam/namamu-siapa.mp3
+    - assets/Suara/Salam/saya-baik-baik-saja.mp3
+    - assets/Suara/Salam/senang-bertemu-denganmu.mp3
+    - assets/Suara/Salam/senang-juga.mp3
 
 
   # To add custom fonts to your application, add a fonts section here,
