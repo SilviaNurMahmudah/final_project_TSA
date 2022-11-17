@@ -106,9 +106,10 @@ class _KosaKataState extends State<KosaKata> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Image(
-                              image: AssetImage(items[index].img.toString()),
+                              image: NetworkImage(items[index].img.toString()),
                               height: 100,
                             ),
+                            const SizedBox(height: 5),
                             Text(
                               items[index].kategori.toString(),
                               style: const TextStyle(

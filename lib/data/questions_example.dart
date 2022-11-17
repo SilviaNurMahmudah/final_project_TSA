@@ -28,12 +28,12 @@ List<QuestionModel> questions = [
     "榴莲": true,
     "橙": false,
   }),
-  // QuestionModel("What is Mars's nickname ?", {
-  //   "The red planet": true,
-  //   "The dusty planet": false,
-  //   "The hot planet": false,
-  //   "The smelly planet": false,
-  // }),
+  QuestionModel("Mangga ?", {
+    "芒果": true,
+    "Píng guǒ": false,
+    "葡萄": false,
+    "香蕉": false,
+  }),
   // QuestionModel("About How long would it take to travel to Mars ?", {
   //   "Three days": false,
   //   "A month": false,

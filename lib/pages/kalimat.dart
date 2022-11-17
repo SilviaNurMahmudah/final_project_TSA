@@ -88,7 +88,7 @@ class _KalimatState extends State<Kalimat> {
                                                 terjemahan: items[index].kalimat![i].terjemahan.toString(),
                                                 hanzi: items[index].kalimat![i].hanzi.toString(),
                                                 pinyin: items[index].kalimat![i].pinyin.toString(),
-                                                audio: items[index].kosaKata![i].audio.toString(),
+                                                audio: items[index].kalimat![i].audio.toString(),
                                               ),
                                             ),
                                           ),
@@ -106,9 +106,10 @@ class _KalimatState extends State<Kalimat> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Image(
-                              image: AssetImage(items[index].img.toString()),
+                              image: NetworkImage(items[index].img.toString()),
                               height: 100,
                             ),
+                            const SizedBox(height: 5),
                             Text(
                               items[index].kategori.toString(),
                               style: const TextStyle(

@@ -36,7 +36,7 @@ class _TranslatedState extends State<TranslatedIdZh> {
           onPressed: () {
             Navigator.pushNamedAndRemoveUntil(context, '/home', ModalRoute.withName('/home'));
           },
-          icon: const Icon(Icons.translate, color: Colors.white70),
+          icon: const Icon(Icons.arrow_back_ios, color: Colors.white70),
         ),
       ),
       body: Card(

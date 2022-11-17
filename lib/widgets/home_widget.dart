@@ -37,6 +37,7 @@ class HomeWidget extends StatelessWidget {
                 image: AssetImage(img),
                 height: 80,
               ),
+              const SizedBox(height: 5),
               Text(
                 text,
                 style: const TextStyle(
